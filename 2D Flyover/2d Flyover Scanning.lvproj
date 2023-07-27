@@ -949,6 +949,14 @@
 			<Item Name="ThorlabsDefaultSettings.xml" Type="Document" URL="../ThorlabsDefaultSettings.xml"/>
 			<Item Name="Xceed.Wpf.Toolkit.dll" Type="Document" URL="../Xceed.Wpf.Toolkit.dll"/>
 		</Item>
+		<Item Name="Action Engine" Type="Folder">
+			<Item Name="ActionEngine M1.vi" Type="VI" URL="../Action Engine/ActionEngine M1.vi"/>
+			<Item Name="ActionEngine M2.vi" Type="VI" URL="../Action Engine/ActionEngine M2.vi"/>
+			<Item Name="ActionEngineEnum.ctl" Type="VI" URL="../Action Engine/ActionEngineEnum.ctl"/>
+		</Item>
+		<Item Name="Micronix Scanning" Type="Folder">
+			<Item Name="Initialize DAQ Assistant.vi" Type="VI" URL="../Micronix Scanning/Initialize DAQ Assistant.vi"/>
+		</Item>
 		<Item Name="2d Flyover.vi" Type="VI" URL="../2d Flyover.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -1122,7 +1130,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Initialize DAQ Assistant.vi" Type="VI" URL="../../Micronix Scanning/Initialize DAQ Assistant.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
